@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculator">
+  <grid id="27dc6" binding="Calculator" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="676" height="477"/>
+    </constraints>
+    <properties>
+      <font name="Courier 10 Pitch" size="12" style="3"/>
+      <foreground color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="cc359" class="javax.swing.JButton" binding="button2">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="23bd6" class="javax.swing.JButton" binding="button5">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="91ff1" class="javax.swing.JButton" binding="button00">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <maximumSize width="50" height="50"/>
+          <minimumSize width="50" height="50"/>
+          <opaque value="false"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="00"/>
+        </properties>
+      </component>
+      <component id="501b4" class="javax.swing.JButton" binding="button8">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="f7537" class="javax.swing.JButton" binding="button1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="47379" class="javax.swing.JButton" binding="button3">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="ac47e" class="javax.swing.JButton" binding="button6">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="c137" class="javax.swing.JButton" binding="button4">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="c8ea5" class="javax.swing.JButton" binding="button7">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="7edb2" class="javax.swing.JButton" binding="button9">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="83ee4" class="javax.swing.JButton" binding="buttonMultiplication">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="57810" class="javax.swing.JButton" binding="buttonAC">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="AC"/>
+        </properties>
+      </component>
+      <component id="d17a1" class="javax.swing.JButton" binding="buttonDelete">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="&lt;-"/>
+        </properties>
+      </component>
+      <component id="46a95" class="javax.swing.JButton" binding="buttonPlusMinus">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="±"/>
+        </properties>
+      </component>
+      <component id="b1064" class="javax.swing.JButton" binding="buttonPlus">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="7130f" class="javax.swing.JButton" binding="buttonEqually">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="878b1" class="javax.swing.JButton" binding="buttun0">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="5f215" class="javax.swing.JButton" binding="buttonDot">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="38007" class="javax.swing.JButton" binding="buttonDivision">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="e42e6" class="javax.swing.JButton" binding="buttonMinus">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Courier 10 Pitch" size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="50" height="50"/>
+          <requestFocusEnabled value="true"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="b114" class="javax.swing.JTextField" binding="textField">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
